@@ -1,0 +1,66 @@
+body {
+  width: 500px;
+  margin: 20px;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputbox {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #f1f3f5;
+  padding: 10px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.inputbox:focus {
+  outline: none;
+}
+
+.input_add {
+  border: 1px dashed skyblue;
+  background-color: #d0ebff;
+  color: #1c7ed6;
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+}
+
+.input_reset {
+  border: 1px dashed skyblue;
+  background-color: #d0ebff;
+  color: #1c7ed6;
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+}
+
+.itemBox {
+  display: flex;
+  position: relative;
+  border: 1px dashed #1c7ed6;
+  background-color: #d0ebff;
+  color: black;
+  height: 50px;
+  width: 100%;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.delete-btn {
+  position: absolute;
+  left: 450px;
+  border: 1px dashed skyblue;
+  background-color: #d0ebff;
+  color: #1c7ed6;
+  width: 40px;
+  padding: 5px 0;
+  top: 2.2em;
+  font-weight: bold;
+}
